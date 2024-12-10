@@ -1,0 +1,16 @@
+{
+    "output_dir": "../../Results/single_agent",
+    "log_file": "scifi_single_agent.log",
+    "gemini_model_name": "gemini-1.5-pro-latest",
+    "llama_model_name": "meta-llama/Llama-3.2-3B-Instruct",
+    "agent_name": "Llama Agent - Creative Writer",
+    "agent_role": "Creative Writer",
+    "agent_speciality": "General Story Creation",
+    "format_string": "Please follow these formatting rules for your response:\n\n1. **Do not repeat the prompt**: Directly start generating the requested story without restating or summarizing the given prompt.\n2. **Start with the phrase**: \"Here\u2019s my story:\".\n3. **End with the phrase**: \"End of Story\".\n4. **Only include the story text between these phrases**: Avoid adding any commentary, explanation, or notes before or after the story.",
+    "agent_role_prompt": "As a Creative Writer, your mission is to craft a complete and engaging science fiction story that encompasses all elements of storytelling. You independently develop the characters, plot, themes, setting, and conflicts to create a cohesive and immersive narrative. Your role involves building a vivid world, creating dynamic character interactions, introducing meaningful conflicts, and embedding themes that resonate within the sci-fi genre. The story should be imaginative, consistent, and under 300 words to maintain focus and clarity in each aspect.",
+    "prompts_file": "../../datasets/SciFi/scientific_writing.json",
+    "max_token": 1000,
+    "bucket_name": "nlp_result",
+    "secrets_path": "../../secrets.json"
+}
+
