@@ -1,6 +1,6 @@
 # Towards Artistic Intelligence: Enhancing LLM Creativity Through Multi-Agent Feedback
 
-<a href='https://drive.google.com/file/d/1gQ4WJI7yYqI93ohbpQYXv0qV49RNGB0g/view?usp=sharing'><img src='https://img.shields.io/badge/Poster-PDF-red'> <a href='https://github.com/weiyueli7/llm-creativity/blob/main/Datasets/SciFi/scientific_writing.json'><img src='https://img.shields.io/badge/SciFi-Dataset-yellow'>
+<a href='https://drive.google.com/file/d/1gQ4WJI7yYqI93ohbpQYXv0qV49RNGB0g/view?usp=sharing'><img src='https://img.shields.io/badge/Poster-PDF-red'> <a href='https://github.com/weiyueli7/llm-creativity/blob/main/datasets/SciFi/scientific_writing.json'><img src='https://img.shields.io/badge/SciFi-Dataset-yellow'>
 
 This repository contains the code for the paper "Towards Artistic Intelligence: Enhancing LLM Creativity Through Multi-Agent Feedback". We propose a novel approach to enhance the creativity of large language models (LLMs) by incorporating multi-agent feedback. We evaluate our approach on the task of scientific writing using using LLM-as-a-judge and our rule-based evaluation framework and show that our approach significantly improves the creativity of LLMs compared to the baseline frameworks.
 
